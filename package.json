@@ -21,6 +21,11 @@
       }
     ]
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wasabijiro/vscode-extension-path-printer.git"
+  },
+  "publisher": "wasabijiro",
   "scripts": {
     "vscode:prepublish": "npm run package",
     "compile": "webpack",
