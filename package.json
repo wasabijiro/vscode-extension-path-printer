@@ -9,13 +9,15 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onCommand:vscode.upperCase"
+  ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "vscode-path-printer.helloWorld",
-        "title": "Hello World"
+        "command": "path-printer.insertPath",
+        "title": "Insert Relative Path"
       }
     ]
   },
