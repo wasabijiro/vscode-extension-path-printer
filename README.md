@@ -14,7 +14,7 @@
 2. Open the Command Palette:
    - On Windows: `Ctrl+Shift+P`
    - On macOS: `Cmd+Shift+P`
-3. Search for and execute the 'Insert relative Path' command.
+3. Search for and execute the 'Insert Relative Path' command.
 4. The relative path of the active file will be inserted as a comment at the beginning of the file.
 
 ## Specific Use Case
