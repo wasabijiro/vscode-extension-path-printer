@@ -2,7 +2,7 @@
   "name": "vscode-path-printer",
   "displayName": "vscode_path_printer",
   "description": "insert relative path",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.83.0"
   },
