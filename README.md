@@ -1,6 +1,6 @@
 # Path Printer for VS Code - Enhance Question Precision with Path Display
 
-"Path Printer for VS Code" is an extension designed to instantly clarify the file structure you're working on, especially within specific directory structures defined by frameworks or libraries. For example, in frameworks like Next.js, where the relative path from the `pages` directory reflects the routing structure, this extension is particularly useful.
+"Path Printer for VS Code" is an extension designed to instantly clarify the file structure you're working on, especially within specific directory structures defined by frameworks or libraries. This tool is highly valuable when posing questions to ChatGPT, which thrives on detailed context to provide precise answers.
 
 ## Key Features
 
@@ -11,12 +11,15 @@
 ## How to Use
 
 1. Open a file in Visual Studio Code.
-2. Open the Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`) and search for the 'Insert Path' command to execute it.
-3. The relative path of the active file will be inserted as a comment at the beginning of the file.
+2. Open the Command Palette:
+   - On Windows: `Ctrl+Shift+P`
+   - On macOS: `Cmd+Shift+P`
+3. Search for and execute the 'Insert Path' command.
+4. The relative path of the active file will be inserted as a comment at the beginning of the file.
 
 ## Specific Use Case
 
-In a Next.js project, when working on files like `/src/app/home/page.jsx`, this extension can be particularly helpful. From Next.js 13, directories placed within the `app` directory and their `page.jsx` files are used as the names for URL routing. Therefore, being able to instantly verify the file path is directly linked to increased development efficiency and a better understanding of the routing structure. Using Path Printer allows for direct confirmation of the file's location and routing path within the editor, facilitating code referencing and communication within a team.
+In a Next.js project, when working on files like `/src/app/home/page.jsx`, this extension is particularly helpful. From Next.js 13, directories placed within the `app` directory and their `page.jsx` files determine URL routing. Being able to instantly verify the file path enhances development efficiency and understanding of the routing structure. When preparing to ask ChatGPT a question, using Path Printer ensures you provide the full file path, giving ChatGPT the detail it needs to give a focused response. The extension facilitates code referencing and communication within a team.
 
 ## Installation Method
 
